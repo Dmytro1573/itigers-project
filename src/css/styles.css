@@ -12,7 +12,7 @@
 @import url('./collection.css');
 @import url('./order.css');
 @import url('./testimonials.css');
-@import url('footer.css');
+@import url('.footer.css');
 
 :root {
   --main-black: #1C2225;
