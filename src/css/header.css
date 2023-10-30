@@ -116,7 +116,7 @@
 .mob-menu-contact-link:hover,
 .mob-menu-contact-link:focus,
 .mob-menu-contact-link:active {
-  border-color: var(--main-yellow);
+  border-color: #FCF9F9;
 }
 
 .mob-menu-link:hover,
@@ -140,6 +140,13 @@
   fill: transparent;
   stroke: #1C2225;
   padding: 0;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.mob-menu-close-btn:hover,
+.mob-menu-close-btn:focus,
+.mob-menu-close-btn:active {
+  stroke: #FCF9F9;
 }
 
 .mob-menu-container {
@@ -221,6 +228,7 @@
     font-size: 14px;
     line-height: 1.29;
     text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-soc-list {
@@ -236,6 +244,26 @@
     padding: 14px 28px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus,
+  .header-menu-link:active {
+    color: #ECD979;
+  }
+
+  .header-contact-link:hover,
+  .header-contact-link:focus,
+  .header-contact-link:active {
+    border-color: #ECD979;
+  }  
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    max-width: 1440px;
+    padding: 20px 100px 0 100px;
   }
 }
 
