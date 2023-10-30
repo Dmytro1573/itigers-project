@@ -1,5 +1,8 @@
 .collection-conteiner {
     background-color: #1C2225;
+    background-image: url(../img/backimg-collection.png);
+    background-repeat: no-repeat;
+    /* background-position:  */
     padding-top: 18px;
     padding-left: 20px;
     padding-right: 20px;
@@ -12,12 +15,13 @@
 .collection-title {
     color: var(--main-white);
     font-family: Manrope;
+    text-align: center;
         font-size: 32px;
         font-weight: 500;
         line-height: 1.4;
         letter-spacing: -0.03em;
         margin-bottom: 40px;
-text-align: center;
+
         
        
 }
