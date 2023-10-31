@@ -20,11 +20,12 @@
 }
 
 .mob-menu {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
+  max-width: 375px;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: var(--main-yellow);
   z-index: 8;
   padding: 20px 20px 0 20px;
@@ -35,7 +36,7 @@
   flex-direction: column;
   gap: 186px;
   background-image: url(../img/logo-png.png);
-  background-position: bottom 0;
+  background-position: right bottom -50px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -194,10 +195,10 @@
   }
 
   .mob-menu {
+    max-width: 768px;
     gap: 223px;
-    background-position: right -92px bottom -120px;
-    background-size: 545px 484px;
     padding: 20px 32px 0 32px;
+    background-position: right bottom -144px;
   }
 
   .mob-menu-list {
