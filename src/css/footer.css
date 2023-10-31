@@ -5,14 +5,14 @@
     background-image: url(../img/vyshyvanka-mob.png);
     background-repeat: no-repeat;
     background-position: center bottom;
-    background-size: 452px;
+    background-size: 100% 100%;
 }
 @media (min-resolution: 192dpi) {
     .footer {
         background-image: url(../img/vyshyvanka-mob-2x.png);
         background-repeat: no-repeat;
         background-position: center bottom;
-        background-size: 452px;
+        background-size: contain;
     }
   }
 .footer-menu {
