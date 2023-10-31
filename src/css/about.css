@@ -1,5 +1,23 @@
+.about {
+}
+
 .about-container {
+  min-width: 320px;
+  max-width: 375px;
+  width: 100%;
   padding: 40px 20px 40px 20px;
+  background-image: url(../img/about/bg-about-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 125px;
+  background-size: 459px 408px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about-container {
+    background-image: url(../img/about/bg-about-mob-2x.png);
+  }
 }
 
 .about-wrap {
@@ -17,9 +35,6 @@
 }
 
 .about-text {
-  min-width: 320px;
-  max-width: 375px;
-  width: 100%;
   color: rgba(252, 249, 249, 0.4);
   font-family: Manrope;
   font-size: 14px;
@@ -28,4 +43,82 @@
   line-height: normal;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
+}
+
+/**
+  |============================
+  | tab
+  |============================
+*/
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    max-width: 758px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    background-image: url(../img/about/bg-about.png);
+    background-position: bottom -10px left 365px;
+    background-size: 545px 484px;
+  }
+
+  .about-wrap {
+    margin-bottom: 40px;
+  }
+
+  .about-title {
+    font-size: 44px;
+    line-height: 1.46;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-container {
+      background-image: url(../img/about/bg-about-2x.png);
+    }
+  }
+}
+
+/**
+  |============================
+  | desk 1280
+  |============================
+*/
+@media screen and (min-width: 1280px) {
+  .about-container {
+    max-width: 1280px;
+    padding: 75px 100px 75px 100px;
+
+    background-image: url(../img/about/bg-about.png);
+    background-position: bottom -10px left 895px;
+    background-size: 545px 484px;
+
+    display: flex;
+  }
+
+  .about-wrap {
+    margin-left: 50px;
+  }
+
+  .about-title {
+    font-size: 44px;
+    line-height: 1.46;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-container {
+      background-image: url(../img/about/bg-about-2x.png);
+    }
+  }
 }
