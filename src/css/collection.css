@@ -5,8 +5,8 @@
     background-position: left 0 top 307px;
     background-size: 20%;
     padding-top: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 80px;
     max-width: 375px;
     margin-left: auto;
@@ -34,6 +34,11 @@
 }
 
 .collection-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
         margin-top: 0;
         margin-bottom: 0;
         padding-left: 0;
@@ -42,12 +47,10 @@
 .collection-item {}
 
 .collection-img {
-
-    max-width: 100%;
+    width: 100%;
     height: auto;
 border-radius: 4px; 
     margin-bottom: 18px;
-    margin-top: 20px;
 }
 
 .collection-name {
@@ -80,8 +83,8 @@ border-radius: 4px;
     .collection-conteiner {
             max-width: 768px;
             padding-top: 50px;
-                padding-left: 32px;
-                padding-right: 32px;
+                padding-left: 16px;
+                padding-right: 16px;
                 padding-bottom: 100px;
                 background-image: url(../img/backimg-collection-1.png);
                 background-size: auto;
@@ -93,9 +96,8 @@ border-radius: 4px;
         }
 
 .collection-list {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px; 
 }
 
     .collection-name {
@@ -121,8 +123,8 @@ width: calc((100% - 20px) / 2);
     .collection-conteiner {
         max-width: 1280px;
             padding-top: 70px;
-            padding-left: 100px;
-            padding-right: 100px;
+            padding-left: 50px;
+            padding-right: 50px;
             padding-bottom: 150px;
             background-image: url(../img/backimg-collection-2.png);
             background-position: left 0 top 292px;
