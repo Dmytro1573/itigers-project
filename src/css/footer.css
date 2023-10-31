@@ -1,8 +1,20 @@
 .footer {
     width: 375px;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
-    width: 100%;
+    height: 649px;
+    background-image: url(../img/vyshyvanka-mob.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 452px;
 }
+@media (min-resolution: 192dpi) {
+    .footer {
+        background-image: url(../img/vyshyvanka-mob-2x.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 452px;
+    }
+  }
 .footer-menu {
     width: 100%;
     padding: 40px 20px 0 20px;
@@ -64,10 +76,23 @@
     height: 100%;
     max-height: 401px;
 }
+
 @media screen and (min-width: 768px) {
     .footer {
         min-width: 768px;
         display: flex;
+        background-image: url(../img/vyshyvanka-tab.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: auto;
+    }
+    @media (min-resolution: 192dpi) {
+        .footer {
+            background-image: url(../img/vyshyvanka-tab-2x.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 174px;
+        }
     }
     .footer-list {
         flex-wrap: nowrap;
@@ -97,6 +122,16 @@
 @media screen and (min-width: 1280px) {
     .footer {
         min-width: 1280px;
+        background-image: url(../img/vyshyvanka-lap.png);
+        
+    }
+    @media (min-resolution: 192dpi) {
+        .footer {
+            background-image: url(../img/vyshyvanka-lap-2x.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 336px;
+        }
     }
     .footer-title {
         width: 754px;
@@ -114,6 +149,14 @@
 @media screen and (min-width: 1440px) {
     .footer {
         min-width: 1440px;
+        background-image: url(../img/vyshyvanka-des.png);
+    }
+    @media (min-resolution: 192dpi) {
+        .footer {
+            background-image: url(../img/vyshyvanka-lap-2x.png);
+            background-repeat: no-repeat;
+            background-position: top right;
+        }
     }
     .picture-lap {
         display: none;
