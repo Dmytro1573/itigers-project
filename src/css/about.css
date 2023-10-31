@@ -1,0 +1,31 @@
+.about-container {
+  padding: 40px 20px 40px 20px;
+}
+
+.about-wrap {
+  margin-bottom: 50px;
+}
+
+.about-title {
+  color: var(--main-white);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  min-width: 320px;
+  max-width: 375px;
+  width: 100%;
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
