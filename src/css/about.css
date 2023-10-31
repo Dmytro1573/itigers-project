@@ -99,10 +99,12 @@
     background-size: 545px 484px;
 
     display: flex;
+    align-items: center;
+    gap: 50px;
   }
 
   .about-wrap {
-    margin-left: 50px;
+    margin-bottom: 0;
   }
 
   .about-title {
@@ -111,6 +113,7 @@
   }
 
   .about-text {
+    width: 436px;
     font-size: 16px;
   }
 
@@ -120,5 +123,33 @@
     .about-container {
       background-image: url(../img/about/bg-about-2x.png);
     }
+  }
+
+  .abbout-img {
+    width: 594px;
+    height: 545px;
+    width: 100%;
+  }
+}
+
+/**
+  |============================
+  | desk 1440
+  |============================
+*/
+
+@media screen and (min-width: 1440px) {
+  .about-container {
+    max-width: 1440px;
+  }
+
+  .about-text {
+    width: 481px;
+  }
+
+  .abbout-img {
+    width: 709px;
+    height: 545px;
+    width: 100%;
   }
 }
