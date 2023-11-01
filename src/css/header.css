@@ -64,7 +64,7 @@
   padding: 12px 20px;
   border-radius: 15px;
   border: 1px solid rgba(28, 34, 37, 0.10);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-link {
@@ -72,7 +72,7 @@
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav {
