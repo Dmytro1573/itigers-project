@@ -239,6 +239,7 @@ h1 {
   }
   .order-form-bg-wrap {
     max-width: 1280px;
+    padding: 150px 100px 1px 50px;
   }
   .order-form {
   }
@@ -247,9 +248,6 @@ h1 {
     font-size: 44px;
     line-height: 1.32;
     letter-spacing: -0.03em;
-    margin-top: 150px;
-    margin-right: 100px;
-    padding-top: 0;
   }
 
   .order-input {
@@ -274,7 +272,6 @@ h1 {
     height: 484px;
     background-color: transparent;
     background-image: url('../img/order-ornament-tab.png');
-    z-index: 100;
     background-repeat: no-repeat;
     background-size: auto;
     margin-top: 216px;
@@ -322,26 +319,24 @@ h1 {
   }
   .order-form-bg-wrap {
     max-width: 1440px;
+    padding: 150px 100px 1px 0px;
   }
   .order-form {
+    max-width: 666px;
   }
   .order-form-title {
-    width: 542px;
+    width: 100%;
     font-size: 44px;
     line-height: 1.32;
     letter-spacing: -0.03em;
-    margin-top: 150px;
-    margin-right: 100px;
-    padding-top: 0;
   }
 
   .order-input {
-    max-width: 508px;
-    height: 50px;
+    max-width: 100%;
     display: block;
   }
   .order-textarea {
-    width: 508px;
+    width: 100%;
     height: 196px;
   }
 
