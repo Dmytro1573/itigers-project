@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto; /*centred block element */
+}
+
+.order {
+  width: 375px;
+  min-height: 1251px;
+  background-color: #1c2225;
+}
+
+.order-bg-img {
+  width: 100%;
+  height: 575px;
+  background-image: url('./img/order-girl-in-green-mob-1x.jpg');
+  background-size: cover;
+  background-position: center;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .order-bg-img {
+    background-image: url('../img/order-girl-in-green-mob-2x.jpg');
+  }
+}
+
+.order-form-bg-wrap {
+  max-width: 375px;
+  padding: 80px 15px 80px 15px;
+  margin: 0;
+  background-color: #1c2225;
+}
+.order-form-title {
+  max-width: 335px;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.order-form-title-accent {
+  color: #ecd979;
+}
+
+.order-form {
+}
+.order-field {
+}
+
+.order-label {
+}
+
+.order-input {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  padding: 14px 16px;
+  /* display: flex;
+  align-items: flex-start; */
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.order-input:hover,
+.order-input:focus,
+.order-input:active {
+  border-color: #fcf9f9;
+}
+::placeholder {
+  color: rgba(252, 249, 249, 0.5);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+}
+
+.order-textarea {
+  width: 100%;
+  min-height: 196px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  display: flex;
+  padding: 14px 16px;
+  align-items: flex-start;
+
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.modal-send-btn {
+  width: 145px;
+  padding: 14px 36px;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.order-icon {
+  width: 26px;
+  height: 10px;
+  fill: #ecd979;
+}
+
+.modal-send-btn:hover {
+  border-color: #ecd979;
+}
+
+.order-content-img {
+  display: none;
+}
+.order-wrap {
+  background-color: #1c2225;
+}
+@media screen and (min-width: 768px) {
+  .order {
+    width: 100%;
+  }
+  .order-bg-img {
+    width: 100%;
+    min-height: 776px;
+    background-image: url('./img/order-girl-in-green-tab-1x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order-bg-img {
+      background-image: url(../img/order-girl-in-green-tab-2x.jpg);
+    }
+  }
+  .order-form-bg-wrap {
+    max-width: 768px;
+  }
+  .order-form-title {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+  }
+
+  .order-input {
+    width: 508px;
+  }
+  .order-textarea {
+    width: 508px;
+  }
+
+  .modal-send-btn {
+    width: 168px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .order-bg-bottom-img {
+    width: 100%;
+    background-color: #1c2225;
+    background-image: url('../img/order-ornament-tab.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 216px;
+  }
+  .order-content-img {
+    display: block;
+    position: relative;
+    top: -115px;
+    left: 98px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order {
+    width: 100%;
+  }
+
+  .order-bg-img {
+    width: 100%;
+    min-height: 776px;
+    background-image: url('../img/order-bg-dt-1280-1x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order-bg-img {
+      background-image: url(../img/order-bg-dt-1280-2x.jpg);
+    }
+  }
+  .order-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .order-form-bg-wrap {
+    max-width: 1280px;
+    padding: 150px 100px 1px 50px;
+  }
+  .order-form {
+  }
+  .order-form-title {
+    width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+  }
+
+  .order-input {
+    max-width: 508px;
+    height: 50px;
+    display: block;
+  }
+  .order-textarea {
+    width: 508px;
+    height: 196px;
+  }
+
+  .modal-send-btn {
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .order-bg-bottom-img {
+    width: 545px;
+    height: 484px;
+    background-color: transparent;
+    background-image: url('../img/order-ornament-tab.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 216px;
+    margin-left: 0;
+    position: absolute;
+    top: 90px;
+    left: -40px;
+  }
+  .order-content-img {
+    display: block;
+    width: 524px;
+    height: 521px;
+    position: relative;
+    top: -150px;
+    left: 90px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .order {
+    width: 100%;
+  }
+
+  .order-bg-img {
+    width: 100%;
+    min-height: 776px;
+    background-image: url('../img/order-bg-dt-1440-1x.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .order-bg-img {
+      background-image: url(../img/order-bg-dt-1440-2x.jpg);
+    }
+  }
+  .order-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .order-form-bg-wrap {
+    max-width: 1440px;
+    padding: 150px 100px 1px 0px;
+  }
+  .order-form {
+    width: 666px;
+    padding-right: 158px;
+  }
+  .order-form-title {
+    min-width: 666px;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+  }
+
+  .order-input {
+    max-width: 100%;
+    display: block;
+    /* */
+  }
+  .order-textarea {
+    width: 100%;
+    height: 196px;
+    /* padding-right: 258px; */
+  }
+
+  .modal-send-btn {
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .order-bg-bottom-img {
+    width: 545px;
+    height: 484px;
+    background-color: transparent;
+    background-image: url('../img/order-ornament-tab.png');
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 216px;
+    margin-left: 0;
+    position: absolute;
+    top: 90px;
+    left: -40px;
+  }
+  .order-content-img {
+    display: block;
+    width: 524px;
+    height: 521px;
+    position: relative;
+    top: -150px;
+    left: 90px;
+    border-radius: 4px;
+  }
+}

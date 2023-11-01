@@ -1,23 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
+<section class="container order">
+  <div class="order-bg-img"></div>
+  <div class="order-wrap">
+    <div class="order-form-bg-wrap">
+      <h1 class="order-form-title">
+        <span class="order-form-title-accent">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
-</head>
+      <form class="order-form">
+        <input
+          type="text"
+          name="customer-name"
+          class="order-input"
+          id="customer-name"
+          placeholder="Enter your full name"
+          pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє']+"
+          required
+        />
 
-<body>
+        <input
+          type="email"
+          name="customer-email"
+          class="order-input"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+          required
+          placeholder="Enter your email"
+        />
 
-</body>
+        <textarea
+          name="customer-comment"
+          id="customer-comment"
+          class="order-textarea"
+          placeholder="Comments"
+        ></textarea>
 
-</html>
+        <button type="submit" class="modal-send-btn">
+          Send<svg class="order-icon" width="26" height="10">
+            <use href="./img/symbol-defs.svg#icon-pointer"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="order-bg-bottom-img">
+      <picture class="order-picture">
+        <source
+          srcset="
+            ../img/order-content-dt-1440-1x.jpg 1x,
+            ../img/order-content-dt-1440-2x.jpg 2x
+          "
+          media="(min-width: 1439px)"
+        />
+        <source
+          srcset="
+            ./img/order-content-dt-1280-1x.jpg 1x,
+            ./img/order-content-dt-1280-2x.jpg 2x
+          "
+          media="(min-width: 1279px)"
+        />
+        <source
+          srcset="
+            ../img/order-content-tab-1x.jpg 1x,
+            ../img/order-content-tab-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="order-content-img"
+          src="../img/order-content-tab-1x.jpg"
+          alt="company prodact"
+          width="639"
+          height="521"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
