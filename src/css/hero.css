@@ -1,23 +1,25 @@
-.hero {
-    padding: 60px 20px 80px 20px;
-}
+/* .hero {
+    padding: 60px 20px 40px 20px;
+} */
 
 .container {
     max-width: 375px;
+    margin: 0 auto;
+    padding: 60px 20px 40px 20px;
 }
 
 .hero-main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
 .hero-title {
-    width: 335px;
+    max-width: 335px;
     font-size: 44px;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.22;
     letter-spacing: -0.03em;
     text-align: left;
     color: #FCF9F9;
@@ -29,21 +31,33 @@
 }
 
 .hero-btn {
-    width: 155px;
-    height: 49px;
+    /* width: 155px;
+    height: 49px; */
     font-size: 14px;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.04em;
-    text-align: left;
     color: #FCF9F9;
     border: 1px solid #FCF9F91A;
     border-radius: 15px;
     background-color: transparent;
     text-transform: uppercase;
-    padding: 0 0 0 36px;
+    /* padding: 0 0 0 36px; */
     margin-bottom: 40px;
     margin-left: 70px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 36px;
+    cursor: pointer;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+    border-color: #ECD979;
 }
 
 .hero-svg {
@@ -52,12 +66,12 @@
 
 .element-svg {
     fill: #ECD979;
+    margin-bottom: 16px;
 }
 
 .element-subtitle {
-    font-family: Manrope;
+    /* font-family: Manrope; */
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.3;
     letter-spacing: -0.04em;
     text-align: center;
@@ -74,33 +88,29 @@
     display: none;
 }
 
-.hero-image {
-    width: 100%;
-}
-
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-    }
-
-    .hero {
-        padding: 100px 32px 100px 32px;
+        padding: 106px 32px 50px 32px;
     }
 
     .hero-main {
-        display: flex;
         position: relative;
-        align-items: baseline;
+        align-items: first baseline ;
     }
 
     .hero-title {
-        width: 549px;
-        height: 192px;
+        max-width: 549px;
+        max-height: 192px;
         font-size: 54px;
+        line-height: 1.19;
+        letter-spacing: -0.03em;
     }
 
     .hero-btn {
-        margin-left: 173px;
+        padding: 14px 39px;
+        margin-left: 141px;
+        font-size: 16px;
     }
 
     .hero-element {
@@ -112,6 +122,11 @@
         position: absolute;
         top: -26px;
         right: 0;
+    }
+
+    .hero-image {
+        width: 413px;
+        height: 575px;
     }
 
     .element-container {
@@ -132,36 +147,36 @@
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1280px;
-    }
-
-    .hero {
-        padding: 100px 100px 150px 100px;
+        padding: 100px 100px 75px 100px;
     }
 
     .hero-main {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-end;
-        align-items: center;
+        align-items: flex-start;
         gap: 40px;
+    }
+
+    .hero-image {
+        width: 392px;
+        height: 545px;
     }
 
     .hero-content {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .hero-title {
         width: 518px;
         margin-bottom: 40px;
-        letter-spacing: -0.03em;
+        margin-top: 94px;
     }
 
     .hero-btn {
-        width: 168px;
-        font-size: 16px;
-        margin: 0;
+        margin-left: 141px;
     }
 
     .hero-element {
@@ -174,16 +189,19 @@
 @media screen and (min-width: 1440px) {
     .container {
         max-width: 1440px;
+        padding: 152px 100px 75px 100px;
     }
-
+    
     .hero-title {
-        font-size: 64px;
         width: 632px;
         height: 222px;
-        letter-spacing: -0.02em;
+        font-size: 64px;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        margin-top: 66px;
     }
 
     .hero-element {
-        top: 100px;
+        top: 66px;
     }
 }
