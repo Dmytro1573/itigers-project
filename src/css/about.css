@@ -10,8 +10,8 @@
 }
 
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .about-container {
     background-image: url(../img/about/bg-about-mob-2x.png);
   }
@@ -42,9 +42,88 @@
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
+
 .about-img {
   width: 100%;
   border-radius: 4px;
+}
+
+h2,
+details {
+  display: inline;
+}
+
+details {
+  position: relative;
+}
+
+details summary {
+  display: block;
+  cursor: pointer;
+  color: #ECD979;
+}
+
+details summary:focus {
+  outline: none;
+}
+
+details[open] {
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  animation: open .2s linear;
+}
+
+details[open] summary {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+details #open {
+  padding-left: 5px;
+  text-align: middle;
+}
+
+details #open:after {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  padding-left: 8px;
+  content: "\00bb";
+  transform: rotate(90deg);
+}
+
+details[open] #open {
+  display: none;
+}
+
+details #close {
+  display: none;
+}
+
+details[open] #close {
+  display: block;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+
+
+
+
+
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /**
@@ -64,8 +143,8 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .about-container {
       background-image: url(../img/about/bg-about-tab-2x.png);
     }
@@ -126,8 +205,8 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .about-container {
       background-image: url(../img/about/bg-about-2x.png);
     }
