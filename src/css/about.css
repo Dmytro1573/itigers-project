@@ -6,7 +6,6 @@
   background-image: url(../img/about/bg-about-mob.png);
   background-repeat: no-repeat;
   background-position: bottom 0px left 125px;
-  background-size: auto;
   background-size: 458px 408px;
 }
 
@@ -44,7 +43,7 @@
   margin-bottom: 20px;
 }
 .about-img {
-  width: 335px;
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -61,7 +60,7 @@
 
     background-image: url(../img/about/bg-about-tab.png);
     background-position: bottom 0px left 399px;
-    /* background-size: 545px 484px; */
+    background-size: 545px 484px;
   }
 
   @media (min-device-pixel-ratio: 2),
