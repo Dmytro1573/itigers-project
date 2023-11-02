@@ -2,7 +2,7 @@
     padding: 60px 20px 40px 20px;
 } */
 
-.container {
+.container-hero {
     max-width: 375px;
     margin: 0 auto;
     padding: 60px 20px 40px 20px;
@@ -51,7 +51,8 @@
     justify-content: center;
     padding: 14px 36px;
     cursor: pointer;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .hero-btn:hover,
@@ -89,14 +90,14 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .container-hero {
         max-width: 768px;
         padding: 106px 32px 50px 32px;
     }
 
     .hero-main {
         position: relative;
-        align-items: first baseline ;
+        align-items: first baseline;
     }
 
     .hero-title {
@@ -145,7 +146,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .container-hero {
         max-width: 1280px;
         padding: 100px 100px 75px 100px;
     }
@@ -187,11 +188,11 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
+    .container-hero {
         max-width: 1440px;
-        padding: 152px 100px 75px 100px;
+        padding: 100px 100px 75px 100px;
     }
-    
+
     .hero-title {
         width: 632px;
         height: 222px;

@@ -12,9 +12,10 @@
   background-size: cover;
   background-position: cover;
 }
+
 @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
   .order-bg-img {
     background-image: url('../img/order-girl-in-green-mob-2x.jpg');
   }
@@ -22,10 +23,11 @@
 
 .order-form-bg-wrap {
   max-width: 375px;
-  padding: 80px 15px 80px 15px;
+  padding: 80px 20px 20px 20px;
   margin: 0;
   background-color: #1c2225;
 }
+
 .order-form-title {
   max-width: 335px;
   color: #fcf9f9;
@@ -36,6 +38,7 @@
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
+
 .order-form-title-accent {
   color: #ecd979;
 }
@@ -60,6 +63,7 @@
 .order-input:active {
   border-color: #fcf9f9;
 }
+
 ::placeholder {
   color: rgba(252, 249, 249, 0.5);
   font-family: Manrope;
@@ -122,13 +126,16 @@
 .order-content-img {
   display: none;
 }
+
 .order-wrap {
   background-color: #1c2225;
 }
+
 @media screen and (min-width: 768px) {
   .order {
     width: 100%;
   }
+
   .order-bg-img {
     width: 100%;
     min-height: 776px;
@@ -138,15 +145,18 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .order-bg-img {
       background-image: url(../img/order-girl-in-green-tab-2x.jpg);
     }
   }
+
   .order-form-bg-wrap {
     max-width: 768px;
+    padding: 100px 32px 0 32px;
   }
+
   .order-form-title {
     max-width: 542px;
     font-size: 44px;
@@ -157,6 +167,7 @@
   .order-input {
     width: 508px;
   }
+
   .order-textarea {
     width: 508px;
   }
@@ -177,10 +188,11 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .order-bg-bottom-img {
       background-image: url(../img/order-bg2-tab-2x.png);
+      background-size: contain;
     }
   }
 
@@ -206,22 +218,28 @@
     background-repeat: no-repeat;
   }
 
+
+
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .order-bg-img {
       background-image: url(../img/order-bg-dt-1280-2x.jpg);
+
     }
+
   }
+
   .order-wrap {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
     position: relative;
   }
+
   .order-form-bg-wrap {
     max-width: 1280px;
-    padding: 150px 100px 1px 50px;
+    padding: 150px 100px 0 0;
   }
 
   .order-form-title {
@@ -236,6 +254,7 @@
     height: 50px;
     display: block;
   }
+
   .order-textarea {
     width: 508px;
     height: 196px;
@@ -263,10 +282,11 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .order-bg-bottom-img {
       background-image: url(../img/order-dt-bg2-2x.png);
+      background-size: contain;
     }
   }
 
@@ -295,26 +315,30 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .order-bg-img {
       background-image: url(../img/order-bg-dt-1440-2x.jpg);
     }
   }
+
   .order-wrap {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
     position: relative;
   }
+
   .order-form-bg-wrap {
     max-width: 1440px;
     padding: 150px 100px 1px 0px;
   }
+
   .order-form {
     width: 666px;
     padding-right: 158px;
   }
+
   .order-form-title {
     min-width: 666px;
     font-size: 44px;
@@ -326,6 +350,7 @@
     max-width: 100%;
     display: block;
   }
+
   .order-textarea {
     width: 100%;
     height: 196px;
@@ -354,10 +379,11 @@
   }
 
   @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .order-bg-bottom-img {
       background-image: url(../img/order-dt-bg2-2x.png);
+      background-size: contain;
     }
   }
 

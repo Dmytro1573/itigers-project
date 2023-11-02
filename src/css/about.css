@@ -14,6 +14,7 @@
 (min-resolution: 2dppx) {
   .about-container {
     background-image: url(../img/about/bg-about-mob-2x.png);
+    background-size: 459px 408px;
   }
 }
 
@@ -48,7 +49,7 @@
   border-radius: 4px;
 }
 
-h2,
+
 details {
   display: inline;
 }
