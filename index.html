@@ -36,29 +36,32 @@
         </address>
         <ul class="header-soc-list">
             <li class="header-soc-item">
-                <a class="header-soc-link" href="https://www.facebook.com/goITclub/" target="_blank">
+                <a class="header-soc-link" href="https://www.facebook.com/goITclub/" target="_blank" alt="facebook"
+                    aria-label="facebook">
                     <svg class="header-soc-icon" width="28" height="28">
                         <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-facebook"></use>
                     </svg>
                 </a>
             </li>
             <li class="header-soc-item">
-                <a class="header-soc-link" href="https://www.instagram.com/goitclub/" target="_blank">
+                <a class="header-soc-link" href="https://www.instagram.com/goitclub/" target="_blank" alt="instagram"
+                    aria-label="instagram">
                     <svg class="header-soc-icon" width="28" height="28">
                         <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-instagram"></use>
                     </svg>
                 </a>
             </li>
             <li class="header-soc-item">
-                <a class="header-soc-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+                <a class="header-soc-link" href="https://www.youtube.com/c/GoIT" target="_blank" alt="youtube"
+                    aria-label="youtube">
                     <svg class="header-soc-icon" width="28" height="28">
                         <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-youtube"></use>
                     </svg>
                 </a>
             </li>
         </ul>
-        <button type="button" class="menu-open-btn" data-menuBTN-open>
-            <svg class="menu-open-btn-icon" width="36" height="24" >
+        <button type="button" class="menu-open-btn" data-menuBTN-open id="menu-open-btn">
+            <svg class="menu-open-btn-icon" width="36" height="24">
                 <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-nav"></use>
             </svg>
         </button>
@@ -81,9 +84,6 @@
         </ul>
     </div>
 </header>
-
-
-
   <main>
     <section class="hero">
     <div class="container-hero">
@@ -91,7 +91,7 @@
             <div class="hero-content">
                 <h1 class="hero-title">Reviving the traditional <span class="hero-part">Ukrainian</span> artistry in
                     every stitch.</h1>
-                <button type="button" class="hero-btn">Order
+                <button type="button" class="hero-btn" onclick="scrollToSection(order)">Order
                     <svg class="hero-svg" width="26" height="10">
                         <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-pointer"></use>
                     </svg>
