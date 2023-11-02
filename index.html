@@ -313,31 +313,14 @@
       </h1>
 
       <form class="order-form">
-        <input
-          type="text"
-          name="customer-name"
-          class="order-input"
-          id="customer-name"
-          placeholder="Enter your full name"
-          pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє']+"
-          required
-        />
+        <input type="text" name="customer-name" class="order-input" id="customer-name"
+          placeholder="Enter your full name" pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє']+" required />
 
-        <input
-          type="email"
-          name="customer-email"
-          class="order-input"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
-          required
-          placeholder="Enter your email"
-        />
+        <input type="email" name="customer-email" class="order-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+          required placeholder="Enter your email" />
 
-        <textarea
-          name="customer-comment"
-          id="customer-comment"
-          class="order-textarea"
-          placeholder="Comments"
-        ></textarea>
+        <textarea name="customer-comment" id="customer-comment" class="order-textarea"
+          placeholder="Comments"></textarea>
 
         <button type="submit" class="modal-send-btn">
           Send<svg class="order-icon" width="26" height="10">
@@ -348,36 +331,15 @@
     </div>
     <div class="order-bg-bottom-img">
       <picture class="order-picture">
-        <source
-          srcset="
-            ../img/order-content-dt-1440-1x.jpg 1x,
-            ../img/order-content-dt-1440-2x.jpg 2x
-          "
-          media="(min-width: 1439px)"
-        />
-        <source
-          srcset="/itigers-project/assets/order-content-dt-1280-1x-a5bc7eb7.jpg 1x, /itigers-project/assets/order-content-dt-1280-2x-31dc895e.jpg 2x"
-          media="(min-width: 1279px)"
-        />
-        <source
-          srcset="
-            ../img/order-content-tab-1x.jpg 1x,
-            ../img/order-content-tab-2x.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img
-          class="order-content-img"
-          src="../img/order-content-tab-1x.jpg"
-          alt="company prodact"
-          width="639"
-          height="521"
-        />
+        <source srcset="/itigers-project/assets/order-content-dt-1440-1x-a5bc7eb7.jpg 1x, /itigers-project/assets/order-content-dt-1440-2x-31dc895e.jpg 2x" media="(min-width: 1439px)" />
+        <source srcset="/itigers-project/assets/order-content-dt-1440-1x-a5bc7eb7.jpg 1x, /itigers-project/assets/order-content-dt-1440-2x-31dc895e.jpg 2x" media="(min-width: 1279px)" />
+        <source srcset="/itigers-project/assets/order-content-tab-1x-80dd9176.jpg 1x, /itigers-project/assets/order-content-tab-2x-855e2554.jpg 2x" media="(max-width: 767px)" />
+        <img class="order-content-img" src="/itigers-project/assets/order-content-tab-1x-80dd9176.jpg" alt="company prodact" width="639"
+          height="521" />
       </picture>
     </div>
   </div>
 </section>
-
     <section id="testimonials" class="testimonials">
     <div class="container">
         <h2 class="testimonials-title">Testimonials</h2>
