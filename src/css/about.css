@@ -11,8 +11,8 @@
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .about-container {
     background-image: url(../img/about/bg-about-mob-2x.png);
     background-size: 459px 408px;
@@ -25,9 +25,7 @@
 }
 
 .about-title {
-  color: var(--main-white);
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.03em;
@@ -36,9 +34,7 @@
 
 .about-text {
   color: rgba(252, 249, 249, 0.4);
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.04em;
@@ -49,7 +45,6 @@
   width: 100%;
   border-radius: 4px;
 }
-
 
 details {
   display: inline;
@@ -62,7 +57,7 @@ details {
 details summary {
   display: block;
   cursor: pointer;
-  color: #ECD979;
+  color: #ecd979;
 }
 
 details summary:focus {
@@ -73,7 +68,7 @@ details[open] {
   display: block;
   padding-bottom: 25px;
   padding-top: 10px;
-  animation: open .2s linear;
+  animation: open 0.2s linear;
 }
 
 details[open] summary {
@@ -92,7 +87,7 @@ details #open:after {
   position: relative;
   top: -3px;
   padding-left: 8px;
-  content: "\00bb";
+  content: '\00bb';
   transform: rotate(90deg);
 }
 
@@ -111,10 +106,6 @@ details[open] #close {
 ::-webkit-details-marker {
   display: none;
 }
-
-
-
-
 
 @keyframes open {
   0% {
@@ -145,8 +136,8 @@ details[open] #close {
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .about-container {
       background-image: url(../img/about/bg-about-tab-2x.png);
     }
@@ -207,8 +198,8 @@ details[open] #close {
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .about-container {
       background-image: url(../img/about/bg-about-2x.png);
     }
