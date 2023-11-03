@@ -237,6 +237,7 @@
     flex-direction: row-reverse;
     justify-content: flex-start;
     position: relative;
+    width: 1280px;
   }
 
   .order-form-bg-wrap {
@@ -329,6 +330,7 @@
     flex-direction: row-reverse;
     justify-content: flex-start;
     position: relative;
+    width: 1440px;
   }
 
   .order-form-bg-wrap {
