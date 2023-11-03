@@ -256,6 +256,7 @@
   .header-contact-link {
     color: #FCF9F9;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.43;
     text-transform: uppercase;
     padding: 14px 28px;
